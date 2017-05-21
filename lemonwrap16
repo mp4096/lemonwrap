@@ -304,7 +304,7 @@ if __name__ == "__main__":
         if return_code != 0:
             lemon_index = randint(0, len(LEMONGRAB) - 1)
             print("\n")
-            print(recondition(LEMONGRAB[lemon_index]), end="")
+            print(recondition(LEMONGRAB[lemon_index]))
 
         sys.exit(return_code)
     else:
